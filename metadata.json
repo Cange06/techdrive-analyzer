@@ -1,0 +1,5 @@
+{
+  "name": "TechDrive Analyzer",
+  "description": "Un chatbot tecnico per la scelta dell'auto, basato su analisi ingegneristica e dati reali.",
+  "requestFramePermissions": []
+}

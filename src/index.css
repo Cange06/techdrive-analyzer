@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Inter:wght@400;600&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-industrial-dark: #1a202c;
+  --color-industrial-blue: #2d3748;
+  --color-tech-accent: #4a5568;
+  --color-ice-white: #f7fafc;
+}
+
+body {
+  background-color: var(--color-industrial-dark);
+  color: var(--color-ice-white);
+  font-family: var(--font-sans);
+}
+
+.tech-card {
+  background-color: var(--color-industrial-blue);
+  border: 1px solid var(--color-tech-accent);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.mono-data {
+  font-family: var(--font-mono);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-industrial-dark);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-tech-accent);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-industrial-blue);
+}
+
