@@ -22,6 +22,10 @@ The core logic is powered by a custom-tuned Gemini AI model that adopts a specif
 - **Critical Weakness Alerts**: Every recommendation includes a "Critical Weakness" warning based on historical data.
 - **Full-Screen Industrial UI**: A high-density, dark-themed interface designed for focused technical analysis.
 
+<div align="center">
+<img width="1920" height="959" alt="GHBanner" src="./assets/preview.png" />
+</div>
+
 ## 🚀 Tech Stack
 
 - **Frontend**: React 18 + Vite
